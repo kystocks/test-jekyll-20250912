@@ -21,12 +21,9 @@
 title: Kyle's Awesome Title
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  This is such an awesome description that you will want to use it in
-  your meta tags and stuff.
-  You can write a longer description on multiple lines if you like,
-  and it will still be treated as a single line.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+  This is such an awesome description that you will want to use it
+baseurl: "https://kystocks.github.io/test-jekyll-20250912" # the subpath of your site, e.g. /blog
+url: "https://kystocks.github.io/test-jekyll-20250912" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
