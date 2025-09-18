@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "My SI 676 Jekyll Journey"
-date:   2025-09-177 23:00:00 -0500
+date:   2025-09-17 23:00:00 -0500
 categories: si676 jekyll web-development
 ---
 
