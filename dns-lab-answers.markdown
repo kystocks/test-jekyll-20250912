@@ -30,7 +30,7 @@ This response demonstrates DNS redundancy and load balancing. The multiple IP ad
 
 ## DNS Question 2: Piping output to file
 
-✅ **Command used:** `dig umich.edu > umich-dns-record.txt`
+**Command used:** `dig umich.edu > umich-dns-record.txt`
 
 The output was successfully saved to the text file `umich-dns-record.txt` in my working directory.
 
@@ -73,10 +73,3 @@ This command combines multiple DNS queries and uses `awk` to extract just the do
 2. **DNS Infrastructure:** University domains use sophisticated DNS setups with multiple authoritative servers
 3. **TTL Values:** Different record types have different cache lifespans (1800s for A records, 172800s for NS records)
 4. **Geographic Distribution:** The various IP addresses likely represent geographically distributed servers
-
----
-
-**Files Submitted:**
-- This written analysis
-- `umich-dns-record.txt` (complete dig output)
-- Live Jekyll site: https://kystocks.github.io/test-jekyll-20250912/
