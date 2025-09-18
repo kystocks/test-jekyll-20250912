@@ -1,0 +1,35 @@
+
+; <<>> DiG 9.10.6 <<>> umich.edu
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 14368
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 4, ADDITIONAL: 7
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;umich.edu.			IN	A
+
+;; ANSWER SECTION:
+umich.edu.		1800	IN	A	162.159.140.37
+umich.edu.		1800	IN	A	172.66.0.37
+
+;; AUTHORITY SECTION:
+umich.edu.		172800	IN	NS	dns2.itd.umich.edu.
+umich.edu.		172800	IN	NS	dns4.umich.org.
+umich.edu.		172800	IN	NS	dns3.umich.org.
+umich.edu.		172800	IN	NS	dns1.itd.umich.edu.
+
+;; ADDITIONAL SECTION:
+dns2.itd.umich.edu.	1800	IN	A	192.12.80.222
+dns1.itd.umich.edu.	1800	IN	A	192.12.80.214
+dns3.umich.org.		1800	IN	A	18.225.0.3
+dns4.umich.org.		1800	IN	A	3.133.73.51
+dns2.itd.umich.edu.	172800	IN	AAAA	2607:f018:fffd:53::12
+dns1.itd.umich.edu.	172800	IN	AAAA	2607:f018:fffd:53::2
+
+;; Query time: 14 msec
+;; SERVER: 192.168.0.1#53(192.168.0.1)
+;; WHEN: Wed Sep 17 23:09:51 EDT 2025
+;; MSG SIZE  rcvd: 279
+
