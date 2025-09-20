@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   This is such an awesome platform for building websites. I love Jekyll!
   You will too.
   Jekyll is the bestest.
-baseurl: "/test-jekyll-20250912"
+baseurl: "/test-jekyll-20250912/"
 url: "https://kystocks.github.io"
 github_username:  kystocks
 
